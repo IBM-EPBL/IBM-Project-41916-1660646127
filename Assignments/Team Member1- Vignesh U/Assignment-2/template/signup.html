@@ -1,0 +1,26 @@
+{%  extends  'index.html'%}
+
+{%  block  head  %}
+<title>Register  page</title>
+{%  endblock  %}
+
+
+{%  block  body  %}
+
+<h2 style="text-align: center;">Register</h2>
+<br>
+<form  action="/signup" method="post">
+<label  for="fname">Username:</label><br>
+<input  type="text"  id="username"  name="username"  class="form-control"><br>
+<label  for="lname">Password:</label><br>
+<input  type="password"  id="password"  name="password"  class="form-control"><br>
+<label  for="fname">Email:</label><br>
+<input  type="text"  id="email"  name="email"  class="form-control"><br>
+<label  for="fname">Phone:</label><br>
+<input  type="text"  id="number"  name="number"  class="form-control"><br>
+<input  type="submit"  value="Register"  class="btn  btn-secondary" style="margin-top:2ex; margin-left:47%">
+</form>
+
+
+
+{%  endblock  %}
