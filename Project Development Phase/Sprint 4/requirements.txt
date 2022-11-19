@@ -1,0 +1,4 @@
+Flask~=2.2.2
+ibm_db
+python-dotenv~=0.21.0
+sengridid~=6.9.7
