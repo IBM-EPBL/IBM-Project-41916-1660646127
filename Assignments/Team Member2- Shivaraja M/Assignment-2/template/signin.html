@@ -1,0 +1,28 @@
+{%  extends  'index.html'%}
+
+{%  block  head  %}
+
+<title>Login page</title>
+{%  endblock  %}
+
+
+{%  block  body  %}
+
+<h2 style="text-align: center;">Login</h2>
+<form  action="/signin"  method="post">
+
+<div  class="container">
+    <label  for="fname">Username:</label><br>
+    <input  type="text"  id="username"  name="username"  class="form-control" required><br>
+    <label  for="lname">Password:</label><br>
+    <input  type="password"  id="password"  name="password"  class="form-control" required><br>
+<button  style="margin-top:2ex; margin-left:48%" class="btn btn-secondary"  type="submit">Login</button><br>
+<p class="bottom text-center mt-3">Didn't have an account? <a class="bottom"
+    href="signup.html">Signup here</a>
+
+
+</div>
+
+<div  class="container"  style="background-color:#f1f1f1;">
+
+{%  endblock  %}
